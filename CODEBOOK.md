@@ -6,8 +6,9 @@ This code book will attempt to describe the variables in the final tidy dataset.
 ## Variables
 
 The tidy data set was broken down by the subject and activity name. 
-	* Subject.Id - This is an int identifying the subject of the data.
-	* Activity.Name - This is a factor that was added to the dataset by replacing the activity id with the codes from the activities.txt file
+
+	*Subject.Id - This is an int identifying the subject of the data.
+	*Activity.Name - This is a factor that was added to the dataset by replacing the activity id with the codes from the activities.txt file
 	
 The remaining data is pulled from the original data set and averaged based on subject and activity. The following columns were included.
 
